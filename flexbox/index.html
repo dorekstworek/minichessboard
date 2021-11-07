@@ -6,15 +6,19 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Cheesboard flexbox</title>
     <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
         body{
             display: flex;
-            align-items: center;
-            justify-content: center;
+            /* height allows center the item with margin auto for .wrapper*/
+            height: 100vh;
         }
         .wrapper{
             display: flex;
             flex-wrap: wrap;
-            /* padding: 50px; */
+            margin: auto;
             width: 30vw;
             height: 30vw;
             border: black solid 2px;
