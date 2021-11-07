@@ -14,16 +14,17 @@
         .wrapper{
             display: flex;
             flex-wrap: wrap;
-            padding: 50px;
+            /* padding: 50px; */
             width: 30vw;
             height: 30vw;
+            border: black solid 2px;
         }
         div{
             width: calc(30vw / 5);
             height: calc(30vw / 5);
         }
-        .wrapper div:nth-child(odd){
-            background-color:green;
+        .wrapper div:nth-child(even){
+            background-color:black;
         }
     </style>
 </head>
