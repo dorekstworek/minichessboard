@@ -5,3 +5,4 @@ The task was to make a chessboard with dimensions of 30% width of the browser wi
 * Position-Absolute. <br>
 <br>The board was to be centered and receive a signature which technique was used.
 <br><br>I add new technique I know, FlexBox.
+<br> and last one my favourite GRID!
